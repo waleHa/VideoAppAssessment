@@ -18,4 +18,6 @@ data class VideoPlayerWrapper(
     val publishedAt: String,
     @SerializedName("title")
     val title: String
-)
+) {
+    var index: Int = 0
+}
